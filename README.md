@@ -1,8 +1,1 @@
 # scflowers603.github.io
-<head>
-  <title>Shelby Flowers | Portfolio</title>   <!-- shows on the tab only -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Shelby Flowers</h1>                       <!-- shows on the page -->
-</body>
