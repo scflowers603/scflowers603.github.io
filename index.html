@@ -1,9 +1,108 @@
+<!DOCTYPE html>
+<html>
 <head>
-  <title>Shelby Flowers | Portfolio</title>   <!-- shows on the tab only -->
+  <title>Shelby Flowers | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    html { scroll-behavior: smooth; }
+    h1[id] { scroll-margin-top: 70px; }
+    .navbar {
+      position: sticky; top: 0; z-index: 10;
+      display: flex; gap: 25px; flex-wrap: wrap;
+      background-color: rgb(90, 74, 112);
+      padding: 15px 20px; margin: -8px -8px 20px -8px;
+    }
+    .navbar a { color: white; text-decoration: none; font-weight: bold; }
+    .navbar a:hover { text-decoration: underline; }
+  </style>
 </head>
-<body>
-  <h1>Shelby Flowers | Portfolio </h1>     
-  <h2> About Me </h2><!-- shows on the page -->
-  <p> I am currently in my 4th year at St.Mary's College of Maryland studying Computer Science. I am an aspiring software engineer. </p>
+<body style="background-color: rgb(126, 107, 153); font-family: Arial, sans-serif;">
+
+<!-- Navigation bar -->
+<nav class="navbar">
+  <a href="#about">About Me</a>
+  <a href="#interests">My Interests</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<h1 style="color: white;">Shelby Flowers | Portfolio</h1>
+
+<!-- About Me: photo and text side by side -->
+<div style="display: flex; align-items: flex-start; gap: 30px; margin: 20px 0;">
+  <img src="selfie.HEIC" width="200" height="220"
+       style="margin-left: 10px; border: 5px solid white; object-fit: cover; flex-shrink: 0;">
+
+  <div>
+    <h1 id="about" style="color: white; margin-top: 0;">About Me</h1>
+    <p style="color: white;">
+      I am currently in my 4th year at St. Mary's College of Maryland studying
+      Computer Science. <br> I am an aspiring software engineer. I am proficient in Java, Python and C. <br>
+      Some of my interests in Computer Science include Software Engineering and Reverse Engineering.
+    </p>
+  </div>
+</div>
+
+<hr style="border: none; border-top: 2px solid white; margin: 30px 0;">
+
+<h1 id="interests" style="color: white;">My Interests</h1>
+<p style="color: white;">
+  Personal Interests: <br> <br>
+  - Cross Stitching <br>
+  - Drawing <br>
+  - Playing Guitar <br> <br>
+
+  Computer Science Interests: <br> <br>
+  - Cyber Security <br>
+  - Software Engineering <br>
+  - Computer Graphics
+</p>
+
+<hr style="border: none; border-top: 2px solid white; margin: 30px 0;">
+
+<h1 id="experience" style="color: white;">Experience</h1>
+
+<h3 style="color: white;">College Technical Senior, Lockheed Martin, Hanover/Elkridge, MD &nbsp;|&nbsp; June 2026 – August 2026</h3>
+<ul style="color: white;">
+  <li>Communicated project progress, challenges, and next steps to a team of 10+ people in bi-weekly scrum meetings</li>
+  <li>Used reverse engineering and security tools such as Ghidra, Nmap, and Metasploit</li>
+  <li>Performed a security analysis of an IoT camera using Linux command-line tools, examining its hardware, network traffic, and firmware</li>
+  <li>Used Wireshark to verify secure data flow and identify possible vulnerabilities</li>
+</ul>
+
+<h3 style="color: white;">Computer Science Major, St. Mary's College of Maryland, St. Mary's City, MD &nbsp;|&nbsp; August 2023 – Present</h3>
+<ul style="color: white;">
+  <li>Wrote interactive, GUI-based Java programs for selecting, manipulating, and displaying data in a user-friendly environment</li>
+  <li>Wrote C code on a Linux system to build linked lists that manage the creation, insertion, and deletion of complex data structures</li>
+  <li>Tested and debugged multi-threaded application code to identify deadlocks and data races</li>
+  <li>Wrote RISC-V assembly to work with low-level functions using a thin-client RISC-V simulator</li>
+</ul>
+
+<hr style="border: none; border-top: 2px solid white; margin: 30px 0;">
+
+<h1 id="education" style="color: white;">Education</h1>
+
+<!-- Education: logo and text side by side -->
+<div style="display: flex; align-items: flex-start; gap: 30px; margin: 20px 0;">
+  <img src="smcm123.jpeg" width="200" height="220"
+       style="margin-left: 10px; border: 5px solid white; object-fit: cover; flex-shrink: 0;">
+
+  <div>
+    <h3 style="color: white; margin-top: 0;">St. Mary's College of Maryland, St. Mary's City, MD &nbsp;|&nbsp; August 2023 – May 2027</h3>
+    <ul style="color: white;">
+      <li>Key Courses: Data Structures, Algorithms, Computer Architecture, Discrete Mathematics</li>
+      <li>GPA: 3.2</li>
+    </ul>
+  </div>
+</div>
+
+<hr style="border: none; border-top: 2px solid white; margin: 30px 0;">
+
+<h1 id="contact" style="color: white;">Contact Information</h1>
+<ul style="color: white;">
+  <li>Email: <a href="mailto:scflowers@smcm.edu" style="color: white;">scflowers@smcm.edu</a></li>
+</ul>
+
 </body>
+</html>
